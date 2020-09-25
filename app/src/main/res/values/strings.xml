@@ -4,4 +4,7 @@
     <string name="login_button">Кнопка входа</string>
     <string name="guest_login">Гостевой вход</string>
     <string name="register">Регистрация</string>
+    <string name="hint_name">Введите ваше имя:</string>
+    <string name="hint_password">Введите ваш пароль</string>
+    <string name="alenka_phrase">Пройдемте в сад? Я покажу вас розам.\n<font size="20">Алёнкин Огород</font>\n\n\n\n\n\n</string>
 </resources>
