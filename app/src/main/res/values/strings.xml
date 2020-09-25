@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Alenkin Ogorod</string>
+    <string name="alenka_logo_image">alenka Logo Image</string>
+    <string name="login_button">Кнопка входа</string>
+    <string name="guest_login">Гостевой вход</string>
+    <string name="register">Регистрация</string>
 </resources>
