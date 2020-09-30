@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Alenkin Ogorod</string>
     <string name="alenka_logo_image">alenka Logo Image</string>
-    <string name="login_button">Кнопка входа</string>
+    <string name="login_button">Войти</string>
     <string name="guest_login">Гостевой вход</string>
     <string name="register">Регистрация</string>
     <string name="hint_name">Введите ваше имя:</string>
@@ -24,4 +24,5 @@
     <string name="moon_calendar_text">Перечень сезонных работ с января по декабрь</string>
     <string name="questions_answers">Рубрика Вопрос-ответ</string>
     <string name="questions_answers_text">Быстрые и точные ответы, личные лайфхаки и подсказки</string>
+    <string name="email">Введите ваш email:</string>
 </resources>

@@ -27,7 +27,8 @@
             <RelativeLayout
                 android:id="@+id/relativelayout"
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
+                android:layout_height="0dp"
+                android:layout_weight="1">
 
                 <ImageView
                     android:id="@+id/imageViewAlenkalogo"
@@ -49,7 +50,6 @@
                     android:textColor="#FFFFFF"
                     android:textStyle="bold" />
 
-
             </RelativeLayout>
 
 
@@ -57,6 +57,7 @@
                 android:id="@+id/editTextLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
                 android:hint="@string/hint_name"
                 android:inputType="textPersonName" />
 
@@ -64,26 +65,40 @@
                 android:id="@+id/editTextPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/hint_password" />
+                android:layout_margin="8dp"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword" />
 
             <Button
                 android:id="@+id/buttonLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@color/yellow"
+                android:onClick="onClickEnter"
                 android:text="@string/login_button" />
 
             <Button
                 android:id="@+id/buttonGuestLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/green_dark"
+                android:onClick="onClickGuestEnter"
                 android:text="@string/guest_login" />
 
             <TextView
                 android:id="@+id/textViewRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:onClick="onClickRegister"
                 android:text="@string/register" />
-
 
         </LinearLayout>
     </ScrollView>
