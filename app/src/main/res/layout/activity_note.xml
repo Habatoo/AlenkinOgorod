@@ -4,42 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EnterActivity">
+    tools:context=".NoteActivity">
 
     <ImageView
-        android:id="@+id/imageViewOurGarden"
+        android:id="@+id/imageViewNote"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:contentDescription="@string/our_garden_picture"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ourgarden" />
+        app:srcCompat="@drawable/note" />
 
     <TextView
-        android:id="@+id/textViewOurGarden"
+        android:id="@+id/textViewText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/our_site"
+        android:text="@string/in_favorites_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewOurGarden" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewNote" />
 
     <TextView
-        android:id="@+id/textViewOurGardenText"
+        android:id="@+id/textViewNote"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/our_site_text"
+        android:text="@string/in_favorites"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewOurGarden" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewNote" />
 </androidx.constraintlayout.widget.ConstraintLayout>
