@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText editTextName;
+    private EditText editTextLogin;
     private EditText editTextPassword;
 
     private Button buttonName;
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        editTextName = findViewById(R.id.editTextLogin);
+        editTextLogin = findViewById(R.id.editTextLogin);
         editTextPassword = findViewById(R.id.editTextPassword);
 
         
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickEnter(View view) {
 
-        name = editTextName.getText().toString().trim();
+        name = editTextLogin.getText().toString().trim();
         password = editTextPassword.getText().toString().trim();
 
         if (!name.isEmpty() && !password.isEmpty()) {
