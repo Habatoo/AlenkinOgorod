@@ -34,7 +34,7 @@ public class RegisterActivity extends AppCompatActivity {
         password = editTextRegisterPassword.getText().toString().trim();
 
         if (!name.isEmpty() && !password.isEmpty() && !email.isEmpty()) {
-            Intent intent = new Intent(this, EnterActivity.class);
+            Intent intent = new Intent(this, PersonalCabinetActivity.class);
             intent.putExtra("name", name);
             intent.putExtra("email", email);
             intent.putExtra("password", password);

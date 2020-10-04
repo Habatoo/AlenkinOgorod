@@ -26,4 +26,7 @@
     <string name="questions_answers_text">Быстрые и точные ответы, личные лайфхаки и подсказки</string>
     <string name="email">Введите ваш email:</string>
     <string name="our_garden_picture">Our garden picture</string>
+    <string name="personal_info">Персональная информация</string>
+    <string name="place_photo">Разместить фото</string>
+    <string name="make_post">Оставить сообщение</string>
 </resources>

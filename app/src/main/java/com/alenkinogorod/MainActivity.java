@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         password = editTextPassword.getText().toString().trim();
 
         if (!name.isEmpty() && !password.isEmpty()) {
-            Intent intent = new Intent(this, EnterActivity.class);
+            Intent intent = new Intent(this, PersonalCabinetActivity.class);
             intent.putExtra("name", name);
             intent.putExtra("password", password);
             startActivity(intent);
