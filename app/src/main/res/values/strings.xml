@@ -29,4 +29,8 @@
     <string name="personal_info">Персональная информация</string>
     <string name="place_photo">Разместить фото</string>
     <string name="make_post">Оставить сообщение</string>
+    <string name="our_garden">Наш сад изображение</string>
+    <string name="our_calendar">Календарь изображение</string>
+    <string name="our_wiki">Wiki изображение</string>
+    <string name="our_note">Note изображение</string>
 </resources>

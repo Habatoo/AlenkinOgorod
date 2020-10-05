@@ -1,7 +1,7 @@
 package com.alenkinogorod;
 
-
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
@@ -50,6 +50,21 @@ public class EnterActivity extends AppCompatActivity implements ViewSwitcher.Vie
 
     }
 
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.buttonForward:
+                setPositionNext();
+                mImageSwitcher.setImageResource(mImageIds[position]);
+                break;
+            case R.id.buttonPrev:
+                setPositionPrev();
+                mImageSwitcher.setImageResource(mImageIds[position]);
+                break;
+
+            default:
+                break;
+        }
+    }
 
     public void setPositionNext() {
         position++;
@@ -72,7 +87,7 @@ public class EnterActivity extends AppCompatActivity implements ViewSwitcher.Vie
         imageView.setLayoutParams(new
                 ImageSwitcher.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT));
-        imageView.setBackgroundColor(0xFFFFFFFF);
+        imageView.setBackgroundColor(0xFFffffff);
         return imageView;
     }
 
