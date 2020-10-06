@@ -36,7 +36,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/alenka_logo_image"
-                    app:srcCompat="@drawable/alenka" />
+                    app:srcCompat="@drawable/garantee" />
 
                 <TextView
                     android:id="@+id/textViewTopAlenka"
@@ -45,26 +45,12 @@
 
                     android:layout_alignParentBottom="true"
 
-                    android:gravity="center"
-                    android:text="@string/alenka_phrase"
-                    android:textAlignment="center"
-                    android:textColor="#FFFFFF"
+                    android:text="@string/we_know"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/yellow"
                     android:textStyle="bold" />
 
             </RelativeLayout>
-
-            <TextView
-                android:id="@+id/textViewRegister"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:text="@string/register"
-                android:textSize="30dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
                 android:id="@+id/editTextRegisterName"
